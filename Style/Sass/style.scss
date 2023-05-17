@@ -254,7 +254,7 @@ body{
             width: 250px;
             height: 70px;
             margin-top: 50px;
-            margin-left: 35%;
+            
             font-size: large;
             border: none;
             color: #FFF;
@@ -384,4 +384,97 @@ body{
     text-align: center;
     margin-top: 150px;
 }
+//*********************************Gerer l'affichage sur les petites ecrans*******************************************
+@media (min-width: 1250px) and (max-width: 1350px) {
+    .btm-header{
+        height: 700px;
 
+        .btm-header-intro{
+            margin-top: 100px;
+        }
+    }
+
+} 
+
+@media (min-width: 940px) and (max-width: 1250px){
+    .btm-header{
+        height: 600px;
+
+        .btm-header-intro{
+            margin-top: 20px;
+        }
+    }
+
+}
+@media (min-width: 750px) and (max-width: 940px){
+    .btm-header{
+        height: 500px;
+
+        .btm-header-intro{
+            margin-top: 20px;
+            p{
+            font-size: 20px;
+            span{
+                font-size: x-large;
+            }
+        }
+        .btm-header-btn{
+            button{
+                height: 40px;
+                font-size: small;
+                width: 200px;
+                }
+            }
+        }
+    }  
+}
+@media (max-width:750px){
+     .btm-header{
+        height: 500px;
+        background-size: cover;
+
+        .btm-header-intro{
+            margin-top: 20px;
+            p{
+            font-size: 20px;
+            span{
+                font-size: x-large;
+            }
+            }
+            .btm-header-btn{
+                button{
+                    height: 50px;
+                    font-size: small;
+                    width: 200px;
+                }
+            }
+        }   
+    }
+}
+@media (max-width: 595px){
+    .btm-fleche-vers-bas{
+        margin-top: 100px;
+    }
+
+     
+}
+
+@media (max-width: 1600px){
+  //Section
+    .btm-section-right{
+        position: fixed;
+        top: 40%;
+        right: 10%;
+        width: 0px;
+    }
+    //contenu texte
+    .btm-card{
+        p{
+            padding-right: 10%;
+        }
+    }
+    //contact
+    .btm-contact-btn-confirm{
+        margin-left: 30%;
+    }
+}
