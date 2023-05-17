@@ -46,6 +46,9 @@
         </section>
         <!--Le corps du site-->
         <div class="btm-content">
+            <div class="btm-fleche-vers-bas">
+                <a href="#footer"><img src="./Assets/Logos/flèche_down_header.png" alt=""></a>
+            </div>
             <div class="btm-card">
                 <h1 id="batman-au-cinema">BATMAN AU CINÉMA</h1>
                 <p>
@@ -166,6 +169,9 @@
         <div class="btm-multimedia">
             <h1>MULTIMÉDIA</h1>
             <div class="btm-bande-annonce">
+                <div class="btm-left-arrow">
+                    <img src="./Assets/Logos/icon_flèche_1.png" alt="">
+                </div>
                 <div class="btm-bande-annoce-content">
                     <img src="./Assets/Illustrations/Bathome_ba1.png" alt="">
                    <div class="btm-annonce-text">
@@ -181,9 +187,12 @@
                         </p>
                    </div>
                 </div>
+                <div class="btm-right-arrow">
+                    <img src="./Assets/Logos/icon_flèche_2.png" alt="">
+                </div>
             </div>
             <div class="btm-multimedia-video">
-
+                <img src="./Assets/Illustrations/Bathome_ba2.png" alt="">
             </div>
         </div>
         <!--Ajout de contact-->
@@ -199,12 +208,12 @@
                 </label>
                 <input type="checkbox" name="box" id="box" required><br>
                 <select name="frequence-news-letter" id="frequence-news-letter">
-                    <optgroup label="Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter">
-                        <option value="">Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</option>
+                    <optgroup >
+                        <option value="" selected disabled>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</option>
                         <option value="Par jours">Par jours</option>
                         <option value="Par semaine">Par semaine</option>
                         <option value="Par mois">Par mois</option>
-                        </optgroup>
+                    </optgroup>
                 </select><br>
                 <input type="text" name="avis-news" id="" placeholder="Souhaitez-vous recevoir des news" class="btm-input" required>
                 <div class="btm-container-btn">
@@ -241,7 +250,7 @@
                 </p>
                 <img src="Assets/Logos/icon_guillemets_2.png" alt="" class="btm-guillemet-end">
             </div>
-            <footer>
+            <footer id="footer">
                 <p><img src="Assets/Logos/icon_WB.png" alt=""> Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves</p>
                 <div class="btm-footer-link">
                     <img src="Assets/Logos/logo_sayna_white.png" alt="">
