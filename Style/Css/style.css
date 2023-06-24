@@ -54,6 +54,10 @@ body {
       .btm-header .btm-navigation ul .btm-header-logo:hover {
         border-bottom: 2px solid #FFFF00;
         transition: 300ms; }
+      .btm-header .btm-navigation ul .btm-link-right {
+        display: flex; }
+        .btm-header .btm-navigation ul .btm-link-right li {
+          margin-left: 50px; }
   .btm-header .btm-header-intro {
     width: 80%;
     height: 100%;

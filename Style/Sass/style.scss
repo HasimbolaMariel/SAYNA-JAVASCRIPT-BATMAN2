@@ -66,6 +66,12 @@ body{
                 border-bottom: 2px solid #FFFF00;
                 transition: 300ms;
             }
+            .btm-link-right{
+                display: flex;
+                li{
+                    margin-left: 50px;
+                }
+            }
         }
     }
 
